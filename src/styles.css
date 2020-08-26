@@ -1,0 +1,115 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url(../node_modules/font-awesome/css/font-awesome.css);
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+/* fichier de styles associé à l'index.html */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.hide {
+  display: none
+}
+
+mat-footer-row mat-footer-cell {
+  justify-content: center;
+  font-style: italic;
+}
+
+/* notification */
+snack-bar-container.success {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+snack-bar-container.warn {
+  background-color: #f99157;
+  color: #fff;
+}
+
+snack-bar-container.notification simple-snack-bar {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+table{
+  width: 100%;
+ }
+
+
+.mat-column-nom, .mat-column-prenom, .mat-column-agence, .mat-column-experience, .mat-column-tel, .mat-column-competence, .mat-column-bench {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  display: flex;
+  width: 110px !important;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-indentifiant {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  display: flex;
+  width: 115px !important;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.search-div {
+  margin: 10px;
+
+
+}
+
+.search-form-field {
+  width: 30%;
+  margin-left: 10px;
+  padding: 5px 10px;
+  float: right;
+}
+.search-form-field div.mat-form-field-underline {
+  display: none;
+}
+
+#tableauHeaders {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  height: 50px;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+#pager {
+  width: 385px;
+  height: auto;
+  float: right;
+  margin-top: -15px;
+}
+
+#navbarcolor {
+  background: #7386D5 !important;
+}
+

@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+
+
+.mat-column-d_debut, .mat-column-site, .mat-column-intitule, .mat-column-contactClient, .mat-column-tel, .mat-column-Proposition, .mat-column-d_echeance {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  display: flex;
+  width: 110px !important;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-statut {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  display: flex;
+  width: 115px !important;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+
+table{
+  width: 100%;
+ }
+
+.hide {
+  display: none
+}
+
+mat-footer-row mat-footer-cell {
+  justify-content: center;
+  font-style: italic;
+}
+
+#tableauHeaders {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  height: 50px;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+
+

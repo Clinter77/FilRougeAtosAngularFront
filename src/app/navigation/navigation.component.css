@@ -1,0 +1,11 @@
+.navbar {
+  width: 100vw;
+}
+
+.profile-image {
+
+  top:10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}

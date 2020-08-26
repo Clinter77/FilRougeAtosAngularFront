@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+
+table{
+  width: 100%;
+ }
+
+
+
+.mat-column-d_pro, .mat-column-collaborateur, .mat-column-agence, .mat-column-prixVente, .mat-column-prixAchat, .mat-column-marge, .mat-column-d_relance {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  display: flex;
+  width: 110px !important;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-statut_prop {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  display: flex;
+  width: 115px !important;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}

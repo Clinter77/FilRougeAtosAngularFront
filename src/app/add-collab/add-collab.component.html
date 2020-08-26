@@ -1,0 +1,62 @@
+<mat-card-header>
+  <mat-toolbar class="toolbar">
+    <mat-card-title>Client Informations</mat-card-title>
+    <span class="toolbar-spacer"></span>
+
+  </mat-toolbar>
+</mat-card-header>
+<mat-card-content>
+  <div class="container">
+
+      <div class="form-group" [formGroup]="_contactForm" (submit)="onSubmit()">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="nom">Nom</label>
+            <input type="text" id=nom formControlName="nom" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="prenom">Prenom</label>
+            <input type="text" id="prenom" formControlName="prenom" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="matricule">matricule</label>
+            <input type="text" id="matricule" formControlName="matricule" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="id_agc">id d'agence</label>
+            <input type="text" id="id_agc" formControlName="id_agc" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="email">email</label>
+            <input type="text" id="email" formControlName="email" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="Identifiant_Dass">Identifiant_Dass</label>
+            <input type="text" id="Identifiant_Dass" formControlName="Identifiant_Dass" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="bench">bench</label>
+            <input type="text" id="bench" formControlName="bench" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="tel">tel</label>
+            <input type="text" id="tel" formControlName="tel" class="form-control">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+          <button type="submit" class="btn btn-success" (click)="onSubmit()">
+            <mat-icon>save</mat-icon>
+          </button>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+</mat-card-content>

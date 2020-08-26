@@ -1,0 +1,62 @@
+<mat-card-header>
+  <mat-toolbar class="toolbar">
+    <mat-card-title>Ajouter Besoin Clients</mat-card-title>
+    <span class="toolbar-spacer"></span>
+
+  </mat-toolbar>
+</mat-card-header>
+<mat-card-content>
+  <div class="container">
+
+      <div class="form-group" [formGroup]="_contactForm" (submit)="onSubmit()">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="d_debut">Date de creation</label>
+            <input type="text" id=d-debut formControlName="d-debut" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="intitule">Competence</label>
+            <input type="text" id="intitule" formControlName="intitule" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="d_echeance">Date de fin</label>
+            <input type="text" id="d_echeance" formControlName="d_echeance" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="ts">Time Stamp</label>
+            <input type="text" id="ts" formControlName="ts" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="remarque">remarque</label>
+            <input type="text" id="remarque" formControlName="remarque" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="fCloture">fCloture</label>
+            <input type="text" id="fCloture" formControlName="fCloture" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="fRecurent">fRecurent</label>
+            <input type="text" id="fRecurent" formControlName="fRecurente" class="form-control">
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6">
+          <button type="submit" class="btn btn-success" (click)="onSubmit()">
+            <mat-icon>save</mat-icon>
+          </button>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+</mat-card-content>
